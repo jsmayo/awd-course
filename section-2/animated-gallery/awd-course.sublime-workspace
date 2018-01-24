@@ -300,6 +300,7 @@
 	},
 	"file_history":
 	[
+		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc.defaults.json",
 		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
 		"/Users/Steven/GitHub/awd-course/section-2/transition-demo/style2.css",
 		"/Users/Steven/GitHub/awd-course/section-2/transition-demo/index.html",
@@ -325,7 +326,6 @@
 		"/Users/Steven/GitHub/30days-projects/speechSync/styles.css",
 		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/JSHint Gutter/.jshintrc",
 		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/Origami/Origami.sublime-settings",
-		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc.defaults.json",
 		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/User/.jsbeautifyrc",
 		"/Users/Steven/GitHub/30days-projects/geoloc/index.html",
 		"/Users/Steven/GitHub/30days-projects/geoloc/package.json",
@@ -550,7 +550,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 100.0,
+	"side_bar_width": 147.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
