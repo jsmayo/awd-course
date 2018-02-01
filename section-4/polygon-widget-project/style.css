@@ -9,12 +9,24 @@
   /* Shrink 2x as fast as others when needed*/
   flex-shrink: 2;
   /*Ideal size is 100px unless too big via max-width*/
-  flex-basis: 100px;
+  flex-basis: 200px;
   /*Grow evenly with all other items*/
   flex-grow: 1;
+  color:white;
+  font-family: Helvetica;
+  padding: 20px;
+  transition: background 0.1s;
+}
+
+.box:hover {
+  background: #ff0052;
 }
 
 .middle {
   background: #b20039;
   flex-shrink:1;
+}
+
+h3 {
+  font-size: 2vh;
 }
