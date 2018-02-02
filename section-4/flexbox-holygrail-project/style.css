@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  flex-direction: column;
+
+}
+
+header{
+  height: 50px;
+  background-color: pink;
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  /* set ideal to 800 px    */
+  flex-basis: 800px;
+  display: flex;
+  flex-direction: stretch;
+  justify-content: space-between;
+
+}
+
+nav {
+  background-color: teal;
+  order: -1;
+  flex-grow: .2;
+
+}
+
+article {
+  background-color: grey;
+  flex-grow: .6;
+}
+
+aside {
+  background-color: teal;
+  flex-grow: .2;
+}
+
+footer {
+  flex-basis: 50px;
+  background-color: pink;
+}
