@@ -12,14 +12,12 @@ Taking advantage of the READY STATE by using the ONREADYSTATECHANGE property to
     1 - Request Created via open
  */
 XHR.onreadystatechange = function() {
-  if(XHR.readyState == 4 && XHR.status == 200) {
-  // responseText stores the data retrieved from the request.
-      console.log(XHR.responseText);
-    } else {
-      console.log("There was a problem!");
-    }
+  if (XHR.readyState == 4 && XHR.status == 200) {
+    // responseText stores the data retrieved from the request.
+    console.log(XHR.responseText);
+  } else {
+    console.log("There was a problem!");
   }
 }
-
 XHR.open("GET", "https://api.github.com/zen");
 XHR.send();
