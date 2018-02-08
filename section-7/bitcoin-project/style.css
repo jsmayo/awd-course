@@ -1,3 +1,9 @@
+body {
+font-family: 'PT Sans Caption', sans-serif;
+background-color: #E5E7E9;
+color:#34495E;
+}
+
 span {
-  color: green;
+  color: #27AE60;
 }
