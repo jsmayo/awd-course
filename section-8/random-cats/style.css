@@ -1,0 +1,54 @@
+html{
+  background-color: #fff;
+  }
+
+body {
+  max-width: 400px;
+  margin: 30px auto;
+  font-family: 'Sacramento', cursive;
+  font-weight: 700px;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 0;
+  color: #3f85ed;
+}
+
+button {
+  height: 40px;
+  background: #3f85ed;
+    margin-bottom: 10px;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 15px;
+  outline: none;
+}
+
+button:hover {
+  border: 2px solid white;
+  color: #E5E8E8;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  border: 3px solid #3f85ed;
+}
+.catPen {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+
+}
+
+img {
+  width: 200px;
+  max-height: 300px;
+  margin-bottom:20px;
+}
