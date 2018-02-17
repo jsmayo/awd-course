@@ -273,7 +273,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 474.0
+		"width": 444.0
 	},
 	"console":
 	{
@@ -300,6 +300,11 @@
 	},
 	"file_history":
 	[
+		"/Users/Steven/GitHub/awd-course/section-8/random-cats/index.html",
+		"/Users/Steven/GitHub/awd-course/section-8/random-cats/style.css",
+		"/Users/Steven/GitHub/awd-course/section-8/random-cats/script.js",
+		"/Users/Steven/GitHub/awd-course/section-7/fetch/fetch-handlingErrors.html",
+		"/Users/Steven/GitHub/awd-course/section-7/fetch/fetch-options",
 		"/Users/Steven/GitHub/awd-course/section-5/mtnAdventure-project/assets/css/styles.css",
 		"/Users/Steven/GitHub/awd-course/section-5/mtnAdventure-project/index.html",
 		"/Users/Steven/Downloads/css-project-responsive/assets/css/styles.css",
@@ -422,12 +427,7 @@
 		"/Users/Steven/GitHub/QuoteGen/index.sublime-workspace",
 		"/Users/Steven/Desktop/QuoteGen alias",
 		"/Users/Steven/GitHub/jsmayo.github.io/index.html",
-		"/Users/Steven/GitHub/jsmayo.github.io/portfolio.sublime-project",
-		"/Users/Steven/GitHub/YelpCamp/app.js",
-		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/TerminalView/README.md",
-		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
-		"/Users/Steven/GitHub/jsmayo.github.io/projects/backlog/index.html",
-		"/Users/Steven/GitHub/jsmayo.github.io/terminal.glue"
+		"/Users/Steven/GitHub/jsmayo.github.io/portfolio.sublime-project"
 	],
 	"find":
 	{
