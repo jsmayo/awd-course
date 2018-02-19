@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"script",
+				"script\tTag"
+			],
+			[
+				"addEventL",
+				"addEventListener\t( type: DOMString, callback: EventListener, capture?: boolean ): void EventTarget"
+			],
+			[
 				"queryS",
 				"querySelector\t( selectors: DOMString ): Element Element"
 			],
@@ -273,7 +281,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 444.0
+		"width": 349.0
 	},
 	"console":
 	{
@@ -300,6 +308,8 @@
 	},
 	"file_history":
 	[
+		"/Users/Steven/GitHub/awd-course/section-9/index.html",
+		"/Users/Steven/GitHub/awd-course/section-9/pendingTests.js",
 		"/Users/Steven/GitHub/awd-course/section-8/random-cats/index.html",
 		"/Users/Steven/GitHub/awd-course/section-8/random-cats/style.css",
 		"/Users/Steven/GitHub/awd-course/section-8/random-cats/script.js",
@@ -425,9 +435,7 @@
 		"/Users/Steven/GitHub/QuoteGen/js.js",
 		"/Users/Steven/GitHub/QuoteGen/style.css",
 		"/Users/Steven/GitHub/QuoteGen/index.sublime-workspace",
-		"/Users/Steven/Desktop/QuoteGen alias",
-		"/Users/Steven/GitHub/jsmayo.github.io/index.html",
-		"/Users/Steven/GitHub/jsmayo.github.io/portfolio.sublime-project"
+		"/Users/Steven/Desktop/QuoteGen alias"
 	],
 	"find":
 	{
@@ -445,6 +453,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"btn"
 		],
 		"highlight": false,
 		"in_selection": false,
