@@ -160,10 +160,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 293.0,
-		"last_filter": "termina",
+		"height": 161.0,
+		"last_filter": "terminal",
 		"selected_items":
 		[
+			[
+				"terminal",
+				"Preferences: Terminal View: Color Scheme"
+			],
 			[
 				"termina",
 				"Terminal View: Open Bash Terminal"
@@ -210,10 +214,6 @@
 			],
 			[
 				"termian",
-				"Terminal View: Open Bash Terminal"
-			],
-			[
-				"terminal",
 				"Terminal View: Open Bash Terminal"
 			],
 			[
@@ -281,7 +281,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 349.0
+		"width": 474.0
 	},
 	"console":
 	{
@@ -308,6 +308,7 @@
 	},
 	"file_history":
 	[
+		"/Users/Steven/Downloads/Cobalt2.terminal",
 		"/Users/Steven/GitHub/awd-course/section-9/index.html",
 		"/Users/Steven/GitHub/awd-course/section-9/pendingTests.js",
 		"/Users/Steven/GitHub/awd-course/section-8/random-cats/index.html",
@@ -434,8 +435,7 @@
 		"/Users/Steven/GitHub/QuoteGen/index.html",
 		"/Users/Steven/GitHub/QuoteGen/js.js",
 		"/Users/Steven/GitHub/QuoteGen/style.css",
-		"/Users/Steven/GitHub/QuoteGen/index.sublime-workspace",
-		"/Users/Steven/Desktop/QuoteGen alias"
+		"/Users/Steven/GitHub/QuoteGen/index.sublime-workspace"
 	],
 	"find":
 	{
