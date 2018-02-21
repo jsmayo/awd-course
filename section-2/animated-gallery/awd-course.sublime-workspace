@@ -161,12 +161,20 @@
 	"command_palette":
 	{
 		"height": 161.0,
-		"last_filter": "terminal",
+		"last_filter": "terminal vi",
 		"selected_items":
 		[
 			[
+				"terminal vi",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
 				"terminal",
 				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
 			],
 			[
 				"termina",
@@ -281,7 +289,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 474.0
+		"width": 457.0
 	},
 	"console":
 	{
@@ -308,6 +316,13 @@
 	},
 	"file_history":
 	[
+		"/Users/Steven/GitHub/awd-course/section-10/map.js",
+		"/Users/Steven/GitHub/awd-course/section-10/forEach.js",
+		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/User/ColorHighlighter.sublime-settings",
+		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/All Autocomplete/All Autocomplete.sublime-settings",
+		"/Users/Steven/Library/Application Support/Sublime Text 3/Settings/SideBarEnhancements.json",
 		"/Users/Steven/Downloads/Cobalt2.terminal",
 		"/Users/Steven/GitHub/awd-course/section-9/index.html",
 		"/Users/Steven/GitHub/awd-course/section-9/pendingTests.js",
@@ -341,7 +356,6 @@
 		"/Users/Steven/GitHub/30days-projects/vidSpeed/style.css",
 		"/Users/Steven/GitHub/30days-projects/click-drag/index.html",
 		"/Users/Steven/GitHub/30days-projects/click-drag/style.css",
-		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/User/ColorHighlighter.sublime-settings",
 		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
 		"/Users/Steven/GitHub/30days-projects/navStripeFollow/index.html",
 		"/Users/Steven/GitHub/30days-projects/events/index.html",
@@ -379,7 +393,6 @@
 		"/Users/Steven/GitHub/30days-projects/shift-click/index.html",
 		"/Users/Steven/GitHub/30days-projects/ajax-autofill/index.html",
 		"/Users/Steven/GitHub/30days-projects/ajax-autofill/style.css",
-		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
 		"/Users/Steven/GitHub/30days-projects/flexbox/index.html",
 		"/Users/Steven/GitHub/30days-projects/clock/index.html",
 		"/Users/Steven/GitHub/30days-projects/clock/script.js",
@@ -430,16 +443,11 @@
 		"/Users/Steven/Desktop/untitled folder/weather-widgets.html",
 		"/Users/Steven/GitHub/jsmayo.github.io/projects/quote-gen/style.css",
 		"/Users/Steven/GitHub/jsmayo.github.io/projects/quote-gen/js.js",
-		"/Users/Steven/GitHub/jsmayo.github.io/projects/quote-gen/index.html",
-		"/Users/Steven/GitHub/jsmayo.github.io/projects/quote-gen/.gitignore",
-		"/Users/Steven/GitHub/QuoteGen/index.html",
-		"/Users/Steven/GitHub/QuoteGen/js.js",
-		"/Users/Steven/GitHub/QuoteGen/style.css",
-		"/Users/Steven/GitHub/QuoteGen/index.sublime-workspace"
+		"/Users/Steven/GitHub/jsmayo.github.io/projects/quote-gen/index.html"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 28.0
 	},
 	"find_in_files":
 	{
@@ -470,7 +478,7 @@
 	},
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 28.0
 	},
 	"input":
 	{
@@ -518,7 +526,7 @@
 	"pinned_build_system": "",
 	"replace":
 	{
-		"height": 50.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":
