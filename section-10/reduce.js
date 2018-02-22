@@ -5,10 +5,15 @@ Examples:
     var arr = [{name: 'Elie'}, {name: 'Tim'}, {name: 'Matt'}, {name: 'Colt'}]
     extractValue(arr,'name') // ['Elie', 'Tim', 'Matt', 'Colt']
 */
+var arr = [{name: 'Elie'}, {name: 'Tim'}, {name: 'Matt'}, {name: 'Colt'}];
 
 function extractValue(arr, key){
-
+    return arr.reduce(function(acc,next){
+        acc.push(next[key]);
+        return acc;
+    },[]);
 }
+console.log( extractValue(arr,'name'));
 
 
 /*
