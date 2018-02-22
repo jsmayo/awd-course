@@ -160,10 +160,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 161.0,
-		"last_filter": "terminal vi",
+		"height": 375.0,
+		"last_filter": "bash",
 		"selected_items":
 		[
+			[
+				"bash",
+				"Terminal View: Open Bash Terminal"
+			],
 			[
 				"terminal vi",
 				"Terminal View: Open Bash Terminal"
@@ -289,7 +293,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 457.0
+		"width": 474.0
 	},
 	"console":
 	{
