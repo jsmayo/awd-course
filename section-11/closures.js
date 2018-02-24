@@ -9,19 +9,10 @@ Examples:
 */
 
 function specialMultiply(a,b){
-    // using arguments param set by compiler
-  if(arguments.length === 1){
-    /* If only 1 argument, return function definition that requires another parm
-                    specialMultiply(2)(3). */
-    return function(b){
-      return a*b;
-    }
-    /* if more than 1 param, the product of the first 2 will be returned.
-             specialMultiply(2,3); */
-  }
-  return a*b;
-}
+    if(arguments.length === 1) return function(b) { return a*b; };
+    return a * b;
 
+}
 
 /*
 Write a function called guessingGame which takes in one parameter amount. The function should return another function that takes in a parameter called guess. In the outer function, you should create a variable called answer which is the result of a random number between 0 and 10 as well as a variable called guesses which should be set to 0.
@@ -47,5 +38,27 @@ Examples (yours might not be like this, since the answer is random every time):
 */
 
 function guessingGame(amount){
+    // create random answer and set initial params with first call
+    var answer = Math.floor(Math.random()*11); // random number for user to guess
+    var guesses = 0; // number of guesses
+    var completed = false; // flag to mark end of game
 
+    // first call will return a fn() definition w/ the above preset.
+    return function(guess){
+        if(!completed){
+            guesses++; // increment guesses
+            if(guess === answer) {
+                completed = true; // mark end of game and return
+                return "You got it!"
+            }
+            else if(guesses === amount) { // user reached max number of guess attempts
+                completed = true; // mark game as ended and return the answer
+                return "No more guesses the answer was " + answer;
+            }
+            // else return hints to help user guess correct answer
+            else if(guess > answer) return "Your guess is too high!"
+            else if(guess < answer) return "Your guess is too low!"
+        }
+        return "You are all done playing!"
+    }
 }
