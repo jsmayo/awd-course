@@ -160,10 +160,26 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 375.0,
-		"last_filter": "bash",
+		"height": 183.0,
+		"last_filter": "theme",
 		"selected_items":
 		[
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"theme ",
+				"UI: Select Theme"
+			],
+			[
+				"color scheme",
+				"UI: Select Color Scheme"
+			],
+			[
+				"color cheme",
+				"UI: Select Color Scheme"
+			],
 			[
 				"bash",
 				"Terminal View: Open Bash Terminal"
@@ -175,10 +191,6 @@
 			[
 				"terminal",
 				"Terminal View: Open Bash Terminal"
-			],
-			[
-				"theme",
-				"UI: Select Theme"
 			],
 			[
 				"termina",
@@ -293,7 +305,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 474.0
+		"width": 410.0
 	},
 	"console":
 	{
