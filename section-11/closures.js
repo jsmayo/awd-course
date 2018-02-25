@@ -8,10 +8,9 @@ Examples:
     specialMultiply(3); // function(){}....
 */
 
-function specialMultiply(a,b){
-    if(arguments.length === 1) return function(b) { return a*b; };
-    return a * b;
-
+function specialMultiply(a, b) {
+  if (arguments.length === 1) return function(b) { return a * b; };
+  return a * b;
 }
 
 /*
@@ -37,28 +36,27 @@ Examples (yours might not be like this, since the answer is random every time):
     game2(1) // "You are all done playing!"
 */
 
-function guessingGame(amount){
-    // create random answer and set initial params with first call
-    var answer = Math.floor(Math.random()*11); // random number for user to guess
-    var guesses = 0; // number of guesses
-    var completed = false; // flag to mark end of game
+function guessingGame(amount) {
+  // create random answer and set initial params with first call
+  var answer = Math.floor(Math.random() * 11); // random number for user to guess
+  var guesses = 0; // number of guesses
+  var completed = false; // flag to mark end of game
 
-    // first call will return a fn() definition w/ the above preset.
-    return function(guess){
-        if(!completed){
-            guesses++; // increment guesses
-            if(guess === answer) {
-                completed = true; // mark end of game and return
-                return "You got it!"
-            }
-            else if(guesses === amount) { // user reached max number of guess attempts
-                completed = true; // mark game as ended and return the answer
-                return "No more guesses the answer was " + answer;
-            }
-            // else return hints to help user guess correct answer
-            else if(guess > answer) return "Your guess is too high!"
-            else if(guess < answer) return "Your guess is too low!"
-        }
-        return "You are all done playing!"
+  // first call will return a fn() definition w/ the above preset.
+  return function(guess) {
+    if (!completed) {
+      guesses++; // increment guesses
+      if (guess === answer) {
+        completed = true; // mark end of game and return
+        return "You got it!"
+      } else if (guesses === amount) { // user reached max number of guess attempts
+        completed = true; // mark game as ended and return the answer
+        return "No more guesses the answer was " + answer;
+      }
+      // else return hints to help user guess correct answer
+      else if (guess > answer) return "Your guess is too high!"
+      else if (guess < answer) return "Your guess is too low!"
     }
+    return "You are all done playing!"
+  }
 }
