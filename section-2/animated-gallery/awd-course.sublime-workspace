@@ -160,13 +160,41 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 183.0,
-		"last_filter": "theme",
+		"height": 124.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"activate",
+				"Activate Materialize Theme"
+			],
+			[
 				"theme",
 				"UI: Select Theme"
+			],
+			[
+				"set color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"ui sel",
+				"UI: Select Color Scheme"
+			],
+			[
+				"ui color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"termi",
+				"Terminal View: Open Bash Terminal"
 			],
 			[
 				"theme ",
@@ -203,10 +231,6 @@
 			[
 				"termianl",
 				"Terminal View: Open Bash Terminal"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"pack",
@@ -289,10 +313,6 @@
 				"PackageResourceViewer: Extract Package"
 			],
 			[
-				"package",
-				"Package Control: Enable Package"
-			],
-			[
 				"package re",
 				"PackageResourceViewer: Open Resource"
 			],
@@ -305,7 +325,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 410.0
+		"width": 528.0
 	},
 	"console":
 	{
@@ -332,6 +352,8 @@
 	},
 	"file_history":
 	[
+		"/Users/Steven/GitHub/awd-course/section-2/transition-demo/index2.html",
+		"/Users/Steven/GitHub/awd-course/section-11/closures.js",
 		"/Users/Steven/GitHub/awd-course/section-10/map.js",
 		"/Users/Steven/GitHub/awd-course/section-10/forEach.js",
 		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/User/ColorHighlighter.sublime-settings",
@@ -457,9 +479,7 @@
 		"/Users/Steven/Dropbox/Dev/code-snippets/animated-weather-icons/css/style.css",
 		"/Users/Steven/GitHub/jsmayo.github.io/projects/weather-app/index.html",
 		"/Users/Steven/Desktop/untitled folder/weather-widgets.html",
-		"/Users/Steven/GitHub/jsmayo.github.io/projects/quote-gen/style.css",
-		"/Users/Steven/GitHub/jsmayo.github.io/projects/quote-gen/js.js",
-		"/Users/Steven/GitHub/jsmayo.github.io/projects/quote-gen/index.html"
+		"/Users/Steven/GitHub/jsmayo.github.io/projects/quote-gen/style.css"
 	],
 	"find":
 	{
@@ -583,7 +603,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 162.0,
+	"side_bar_width": 177.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
