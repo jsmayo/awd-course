@@ -3,7 +3,7 @@ var express = require('express'),
     // define var app to be express function as shortcut add.listen() ...
     app = express(),
     //c9 port for listening or localhost 
-    port = process.env.PORT || 3000;
+    port = process.env.PORT; // || 3000;
 
 // requiring the routes directory and have access to them due to exports!
 var todoRoutes = require("./routes/todos.js");
@@ -17,6 +17,6 @@ app.get('/', function(req, res) {
 */
 app.use("/api/todos", todoRoutes);
 
-app.listen(port, function() {
+app.listen(process.env.PORT, function() {
     console.log("App is listening on: " + port);
-})
+});
