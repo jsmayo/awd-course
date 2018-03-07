@@ -23,7 +23,14 @@ router.get('/', function(req, res) {
 
 router.post('/', function(req, res) {
   //   response.send("this is the post route");
-  console.log(req.body);
+  // console.log(req.body); // testing object post
+  db.Todo.create(req.body)
+  .then(function(newTodo) {
+    res.status(201).json(newTodo);
+  })
+  .catch(function(err) {
+    console.log(err);
+  })
 });
 
 //export routes for access outside of this file
