@@ -15,10 +15,11 @@ app.use(bodyParser.urlencoded({
   extended: true
 }));
 
-
+// inital request to the root route
 app.get('/', function(req, res) {
   res.send("Hello from the root route");
 });
+
 
 /* making express prefix all routes with '/api/todos' formatting automatically
     SYNTAX: app.use("prefix/format", routesToFormat)
