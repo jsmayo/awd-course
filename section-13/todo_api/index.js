@@ -15,9 +15,15 @@ app.use(bodyParser.urlencoded({
   extended: true
 }));
 
+app.use(express.static(__dirname + '/public'));
+// __dirname holds current directory, needed to send to index.html on load
+app.use(express.static(__dirname + '/views'));
+
+
 // inital request to the root route
 app.get('/', function(req, res) {
-  res.send("Hello from the root route");
+  // res.send("Hello from the root route");
+  res.sendFile("index.html");
 });
 
 
