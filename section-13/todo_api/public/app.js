@@ -1,7 +1,7 @@
 /* global $ */
 $(document).ready(function(){
   $.getJSON("/api/todos")
-  .then(addTodos)
+  .then(addTodos);
   
   $('#todoInput').keypress(function(event){
     if(event.which == 13) {
@@ -11,12 +11,12 @@ $(document).ready(function(){
   
   $('.list').on('click', 'li', function(){
     updateTodo($(this));
-  })
+  });
   
   $('.list').on('click', 'span', function(e){
     e.stopPropagation();
     removeTodo($(this).parent());
-  })
+  });
 });
 
 function addTodos(todos) {
@@ -46,7 +46,7 @@ function createTodo(){
   })
   .catch(function(err){
     console.log(err);
-  })
+  });
 }
 
 function removeTodo(todo){
@@ -61,13 +61,13 @@ function removeTodo(todo){
   })
   .catch(function(err){
     console.log(err);
-  })
+  });
 }
 
 function updateTodo(todo){
   var updateUrl = '/api/todos/' + todo.data('id');
   var isDone = !todo.data('completed');
-  var updateData = {completed: isDone}
+  var updateData = {completed: isDone};
   $.ajax({
     method: 'PUT',
     url: updateUrl,
@@ -76,5 +76,5 @@ function updateTodo(todo){
   .then(function(updatedTodo){
     todo.toggleClass("done");
     todo.data('completed', isDone);
-  })
+  });
 }
