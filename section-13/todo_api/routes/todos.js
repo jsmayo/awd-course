@@ -68,5 +68,19 @@ router.put('/:todoId', function(req, res){
   });
 });
 
+
+//REMOVING A TODO VIA THE DELETE ROUTE
+router.delete("/:todoId", function(req, res) {
+  // remove() attempts to find and then delete the db entry
+  db.Todo.remove({_id: req.params.todoId}) //remove returns a promise
+  .then(function() {
+    res.json({message: "Entry removed successfully"});
+  })
+  .catch(function(err) {
+    res.send(err);
+  });
+});
+
+
 //export routes for access outside of this file
 module.exports = router;
