@@ -32,9 +32,10 @@ console.log(vehicle.toString()); // 'The make, model, and year are Tractor John 
 // 4 - Create a class for a Car. Each object created from the Car function should also have a make, model, and year and a property called numWheels which should be 4. The Car prototype should inherit all of the methods from the Vehicle prototype
 
 class Car extends Vehicle {
-  constructor(make, model, year) {
-    super(make, model, year);
-    this.numWheels = 4;
+  // inheritance ensures properties will be added for make, model, and year
+  constructor() {
+    super(...arguments); // use rest operator for good practice, passing in params is possible, but difficult if many exist
+    this.numWheels = 4; // create and define new properties like normal
   }
 }
 
@@ -46,8 +47,8 @@ console.log(car.numWheels);
 // 5 - Create a class for a Motorcycle. Each object created from the Motorcycle function should also have a make, model, and year and a property called numWheels which should be 2. The Motorcycle prototype should inherit all of the methods from the Vehicle prototype
 
 class Motorcycle extends Car {
-  constructor(make, model, year) {
-    super(make, model, year);
+  constructor() {
+    super(...arguments);
     this.numWheels = 2;
   }
 }
